@@ -127,7 +127,6 @@ export default function App() {
             ref={videoRef}
             className="prank-video"
             src={prankVideo}
-            autoPlay
             playsInline
           />
         </div>
