@@ -121,13 +121,15 @@ export default function App() {
       )}
 
       {/* FIRST VIDEO (2.mp4) */}
-      {stage === "video" && (
+      {stage === "2.mp4" && (
         <div className="video-wrapper">
           <video
             ref={videoRef}
             className="prank-video"
             src={prankVideo}
             playsInline
+            controls
+            autoPlay
           />
         </div>
       )}
