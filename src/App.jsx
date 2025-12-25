@@ -121,7 +121,7 @@ export default function App() {
       )}
 
       {/* FIRST VIDEO (2.mp4) */}
-      {stage === "2.mp4" && (
+      {stage === "video" && (
         <div className="video-wrapper">
           <video
             ref={videoRef}
